@@ -1,0 +1,139 @@
+.cabeçalho1 {
+  width: 1365px;
+  height: 45px;
+  background-color: #2156b1;
+  position: relative;
+}
+a {
+  cursor: pointer;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  bottom: 20px;
+  position: relative;
+  transition: .5s;
+}
+body{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.texto1 {
+  margin-top: 5%;
+  background-color: rgb(20, 220, 160);
+  color: black;
+  font-size: 200%;
+}
+.texto2 {
+  margin-top: 5%;
+  background-color: rgb(20, 220, 63);
+  color: black;
+  font-size: 200%;
+}
+.texto3 {
+  margin-top: 5%;
+  background-color: rgb(255, 162, 23);
+  color: black;
+  font-size: 200%;
+}
+
+  .jogo {
+    position: relative;
+  border: 3px solid;
+  width: 1200px;
+  height: 500px;
+  top: 50px;
+  margin-left: 0;
+  overflow: hidden;
+  background-image: url("../Cenarios/SoloArado.png");
+  background-size: 100% 100%;
+  }
+
+  .trator {
+    position: absolute;
+    top: 0%;
+    left: -150%;
+    width: 80%;
+    height: 105%;
+    z-index: 1;
+
+    animation: trator 15s ease-in-out;
+    animation-fill-mode: backwards;
+  }
+  .fazendeiro {
+    width: 15%;
+    height: 15%;
+    left: -10%;
+    position: relative;
+    margin-top: 250px;
+    z-index: 2;
+
+    animation: fazendeiro 10s ease-in;
+    animation-fill-mode: backwards;
+  }
+  .texto {
+    width: 250px;
+    height: 110px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: orange;
+    position: absolute;
+
+    top: 200px;
+    left: 100px;
+    
+    animation: tomate 3s linear ;
+    animation-delay: 9s;
+    animation-fill-mode: backwards;
+  }
+  .tomate {
+    width: 7.5%;
+    height: 7.5%;
+
+    animation: tomate 3s linear ;
+    animation-delay: 6s;
+    animation-fill-mode: backwards;
+  }
+
+  .proximo {
+    width: 150px;
+    height: 50px;
+    background-color: orangered;
+    border: 2px solid;
+    align-items: center;
+    text-align: center;
+    margin-top: 75px;
+    border-radius: 20px;
+  }
+ 
+  
+  @keyframes trator {
+      from {
+          left: -80%;
+      }
+      to {
+        left: 100%;
+    }
+  }
+
+  @keyframes fazendeiro {
+    from {
+      left: 100%;
+    }
+    to {
+      left: -10%;
+    }
+  }
+
+  @keyframes tomate {
+    from {
+      opacity: 0%;
+    }
+    to{
+      opacity: 100%;
+}
+  }

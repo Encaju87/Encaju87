@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cabeçalho1 {
+    width: 1365px; 
+    height: 45px;
+    background-color: #2156b1;
+    position: relative;
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    bottom: 20px;
+    position: relative;
+  }
+  
+  .texto1 {
+    margin-top: 5%;
+    background-color: rgb(20, 220, 160);
+    color: black;
+    font-size: 200%;
+  }
+  .texto2 {
+    margin-top: 5%;
+    background-color: rgb(20, 220, 63);
+    color: black;
+    font-size: 200%;
+  }
+  .texto3 {
+    margin-top: 5%;
+    background-color: rgb(255, 162, 23);
+    color: black;
+    font-size: 200%;
+  }
+  .jogo {
+    position: relative;
+    border: 3px solid;
+    width: 1200px;
+    height: 500px;
+    top: 50px;
+    margin-left: 0;
+    overflow: hidden;
+    background-image: url("../Cenarios/SoloPronto.png");
+    background-size: 100% 100%;
+  }
+  .colheitadeira {
+    position: absolute;
+    top: 5%;
+    width: 35%;
+    height: 35%;
+    
+  
+    animation: colheitadeira 10s infinite ease-in-out;
+  }
+  .jogo1{
+      width: 1200px;
+      height: 500px;
+      position: relative;  
+    }
+  .escolha0 {
+      width: 550px;
+      height: 400px;  
+      margin-top: 50px;  
+      background-color: orange;
+      border: 2px solid;
+      border-radius: 25px;
+      position: absolute;
+      z-index: 3;
+  
+
+      animation: botao2 5s ease-out;
+      animation-delay: 10s; 
+      animation-fill-mode: backwards;
+    }
+    .escolha1 {
+        width: 550px;
+        height: 400px;  
+        margin-top: 50px;
+        right: 100%;
+        background-color: #070693;
+        border: 2px solid;
+        border-radius: 25px;
+        position: absolute;
+        z-index: 3;
+  
+        animation: botao1 5s ease-out;
+        animation-delay: 10s; 
+        animation-fill-mode: forwards;
+      }
+      .fazendeiro {
+        width: 15%;
+        height: 15%;
+        position: relative;
+        z-index: 2;
+      }
+      .tomate {
+        width: 7.5%;
+        height: 7.5%;
+        position: absolute;
+        z-index: 2;
+      }
+  
+  
+  @keyframes colheitadeira {
+    from {
+      left: -35%;
+    }
+  
+    to {
+      left: 100%;
+    }
+  }
+  
+  @keyframes botao {
+      from {
+        opacity: 0%;
+      }
+      to {
+        opacity: 100%;
+      }
+  }
+  @keyframes botao2 {
+    from {
+      left: 100%;
+    } 
+    to {
+      left: 50%;
+    }
+}
+@keyframes botao1 {
+  from {
+    right: 100%;
+  } 
+  to {
+    right: 50%;
+  }
+}
