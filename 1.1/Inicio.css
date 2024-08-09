@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cabeçalho1 {
+  width: 1365px; 
+  height: 45px;
+  background-color: #2156b1;
+  position: relative;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  bottom: 20px;
+  position: relative;
+}
+.botão {
+  background-color: mediumaquamarine;
+  margin-block-start: 250px;
+  border: 2px solid;
+  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.texto1 {
+  margin-top: 5%;
+  background-color: rgb(20, 220, 160);
+  color: black;
+  font-size: 200%;
+}
+.texto2 {
+  margin-top: 5%;
+  background-color: rgb(20, 220, 63);
+  color: black;
+  font-size: 200%;
+}
+.texto3 {
+  margin-top: 5%;
+  background-color: rgb(255, 162, 23);
+  color: black;
+  font-size: 200%;
+}
+.jogo {
+  position: relative;
+  border: 3px solid;
+  width: 1200px;
+  height: 500px;
+  top: 50px;
+  margin-left: 0;
+  overflow: hidden;
+  background-image: url("../Cenarios/FundoUm.png");
+  background-size: 100% 100%;
+}
+.play {
+  width: 40px;
+  height: 40px;
+}
+.colheitadeira {
+  position: absolute;
+  top: 10%;
+  width: 75%;
+  height: 75%;
+  
+
+  animation: colheitadeira 10s infinite ease-in-out;
+}
+
+@keyframes colheitadeira {
+  from {
+    left: -75%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
