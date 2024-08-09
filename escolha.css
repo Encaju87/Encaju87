@@ -56,7 +56,8 @@ body{
     height: 35%;
     
   
-    animation: colheitadeira 10s infinite ease-in-out;
+    animation: colheitadeira 10s ease-in-out;
+    animation-fill-mode: forwards;
   }
   .jogo1{
       width: 1200px;
@@ -92,19 +93,7 @@ body{
         animation: botao1 5s ease-out;
         animation-delay: 10s; 
         animation-fill-mode: forwards;
-      }
-      .fazendeiro {
-        width: 15%;
-        height: 15%;
-        position: relative;
-        z-index: 2;
-      }
-      .tomate {
-        width: 7.5%;
-        height: 7.5%;
-        position: absolute;
-        z-index: 2;
-      }
+    }
   
   
   @keyframes colheitadeira {

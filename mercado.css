@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cabeçalho1 {
+    width: 1365px; 
+    height: 45px;
+    background-color: #2156b1;
+    position: relative;
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    bottom: 20px;
+    position: relative;
+  }
+   
+  .texto1 {
+    margin-top: 5%;
+    background-color: rgb(20, 220, 160);
+    color: black;
+    font-size: 200%;
+  }
+  .texto2 {
+    margin-top: 5%;
+    background-color: rgb(20, 220, 63);
+    color: black;
+    font-size: 200%;
+  }
+  .texto3 {
+    margin-top: 5%;
+    background-color: rgb(255, 162, 23);
+    color: black;
+    font-size: 200%;
+  }
+  .jogo {
+    position: relative;
+    border: 3px solid;
+    width: 1200px;
+    height: 500px;
+    top: 50px;
+    margin-left: 0;
+    overflow: hidden;
+    background-image: url("../Cenarios/Mercado.png");
+    background-size: 100% 100%;
+  }
+  .jogo1{
+      width: 1200px;
+      height: 500px;
+      position: relative;  
+    }
+  .Caminhoneiro {
+      width: 200px;
+      height: 250px;
+      top: 300px;
+      right: 100px;
+      z-index: 3;
+      position: relative;
+  }
+  .tomate {
+    width: 10%;
+    height: 13%;
+    top: 340px;
+    position: absolute;
+    z-index: 2;
+  }
+  .texto {
+    width: 250px;
+    height: 130px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: orange;
+    position: absolute;
+    z-index: 3;
+
+    top: 200px;
+    left: 180px;
+    
+    animation: texto 4s linear ;
+    animation-fill-mode: backwards;
+  }
+
+  @keyframes texto {
+    from {
+      opacity: 0%;
+    }
+    to{
+      opacity: 100%;
+}
+  }

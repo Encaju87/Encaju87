@@ -1,0 +1,100 @@
+.cabeçalho1 {
+    width: 1365px;
+    height: 45px;
+    background-color: #2156b1;
+    position: relative;
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    bottom: 20px;
+    position: relative;
+    transition: .5s;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .texto1 {
+    margin-top: 5%;
+    background-color: #00d10a;
+    color: black;
+    font-size: 200%;
+  }
+  .texto2 {
+    margin-top: 5%;
+    background-color: #00d10a;
+    color: black;
+    font-size: 200%;
+  }
+  .texto3 {
+    margin-top: 5%;
+    background-color: #00d10a;
+    color: black;
+    font-size: 200%;
+  }
+  
+    .jogo {
+      position: relative;
+    border: 3px solid;
+    width: 1200px;
+    height: 500px;
+    top: 50px;
+    margin-left: 0;
+    overflow: hidden;
+    background-image: url("../Cenarios/SoloPronto.png");
+    background-size: 100% 100%;
+    }
+    .proximo {
+      width: 150px;
+      height: 50px;
+      background-color: orangered;
+      border: 2px solid;
+      align-items: center;
+      text-align: center;
+      margin-top: 75px;
+      border-radius: 20px;
+    }
+    .texto {
+      width: 250px;
+      height: 90px;
+      border: 2px solid;
+      border-radius: 10px;
+      background-color: orange;
+      position: absolute;
+  
+      top: 200px;
+      left: 100px;
+      
+      animation: texto 4s linear ;
+      animation-fill-mode: backwards;
+    }
+
+    .fazendeiro {
+        width: 15%;
+        height: 15%;
+        left: -14.5%;
+        position: relative;
+        margin-top: 250px;
+        z-index: 2;
+    }
+    .tomate {
+      margin-top: 360px;
+      left: 50%;
+      position: absolute;
+      width: 10%;   
+      height: 13%;
+    }
+
+    @keyframes texto {
+      from {
+        opacity: 0%;
+      }
+      to{
+        opacity: 100%;
+  }
+    }
