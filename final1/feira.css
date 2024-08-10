@@ -63,8 +63,8 @@ body{
       position: relative;
   }
   .tomate {
-    width: 7.5%;
-    height: 7.5%;
+    width: 90px;
+    height: 90px;
     top: 305px;
     position: absolute;
     z-index: 2;
