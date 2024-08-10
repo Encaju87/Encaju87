@@ -57,7 +57,7 @@ h1 {
   top: 50px;
   margin-left: 0;
   overflow: hidden;
-  background-image: url("/Cenarios/FundoUm.png");
+  background-image: url("/Cenario/FundoUm.png");
   background-size: 100% 100%;
 }
 .play {
